@@ -1,0 +1,57 @@
+.w3l-header-4.header-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.w3l-header-4 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w3l-header-4 .navbar-brand {
+    color: inherit;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.w3l-header-4 .navbar-toggler {
+    border: none;
+}
+
+.w3l-header-4 .navbar-nav {
+    margin-left: auto;
+}
+
+.w3l-header-4 .nav-item {
+    margin-left: 15px;
+}
+
+.w3l-header-4 .nav-link {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.w3l-header-4 .nav-link:hover {
+    color: #5acae3;
+}
+
+.w3l-header-4 .navbar-toggler .fa-bars,
+.w3l-header-4 .navbar-toggler .fa-times {
+    font-size: 24px;
+}
+
+.w3l-header-4 .bg-gradient {
+    background-image: linear-gradient(to right, #f567a6, #5acae3);
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.w3l-header-4 .bg-gradient:hover {
+    background-image: linear-gradient(to right, #5acae3, #f567a6);
+}

@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+/* Add your styles for the header here */
+
+/* Main Banner Styles */
+/* Add your styles for the main banner here */
+
+/* Call to Action Section Styles */
+.w3l-call-to-action_9 {
+  background: #f5f5f5;
+  padding: 80px 0;
+}
+
+.call-w3 {
+  text-align: center;
+}
+
+.action-button {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.action-button:hover {
+  background: #0056b3;
+}
+
+/* Team Section Styles */
+.w3l-teams-15 {
+  background: #fff;
+  padding: 80px 0;
+}
+
+.team-single-main {
+  text-align: center;
+}
+
+.team-head {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.para.text {
+  color: #777;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Specification Section Styles */
+.w3l-specification-6 {
+  background: #f5f5f5;
+  padding: 80px 0;
+}
+
+.specification-layout {
+  text-align: center;
+}
+
+.title-big {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.mt-3.para {
+  color: #777;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.w3l-right-book {
+  list-style: none;
+  padding: 0;
+}
+
+.w3l-right-book li {
+  margin-bottom: 10px;
+}
+
+/* Footer Styles */
+/* Add your styles for the footer here */
+
+/* Move Top Button Styles */
+#movetop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#movetop:hover {
+  background: #0056b3;
+}
+
+/* Media Queries */
+/* Add your media queries for responsiveness here */
